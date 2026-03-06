@@ -1,0 +1,21 @@
+	Commands to be executed on Windows Command Prompt
+	=================================================
+
+	hostname	=> computer name
+	date
+	time
+	cls		=> clear screen
+	ping <ip_address/name>
+	ping <ip_address/name> -t
+	ping <ip_address/name> -t -l 65500
+	getmac
+	ipconfig
+	ipconfig /all
+	d:
+	md test
+	cd <directory>
+	cd ..
+	cd ../..
+	dir
+	nslookup www.facebook.com	=> find the IP address of the facebook
+	tracert www.facebook.com

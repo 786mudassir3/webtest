@@ -1,0 +1,51 @@
+Configuring GIT username & email
+================================
+$ git config --global user.name ""
+$ git config --global user.email ""
+$ git config --list
+
+Working Directory -->> Initialization -->> Staging
+
+Step-1-Create & Select Directory/Folder
+----------------------------------------
+$ mkdir demo
+$ cd demo
+
+Step-2-Initialize Directory/Folder
+----------------------------------
+$ git init
+
+Step-3-Create/Copy Files
+------------------------
+$ touch index.py
+$ touch home.py
+
+Step-4-Staging
+--------------
+$ git add index.py
+or
+$ git add .
+
+Step-5-Verify Staging
+---------------------
+$ git status
+
+
+Step-6-Commit Changes
+---------------------
+$ git commit -m "added index.py,home.py"
+
+Step-7-Verifying Commit Logs
+----------------------------
+$ git log
+
+
+
+
+
+
+
+
+
+
+

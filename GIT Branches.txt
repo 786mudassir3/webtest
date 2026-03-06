@@ -1,0 +1,22 @@
+GIT Branches
+============
+
+$ git branch				=> list all branches
+$ git branch <branch_name>		=> create new branch
+example: 
+$ git branch design
+$ git branch functionality
+$ git branch monitoring
+$ git branch payment
+
+$ git checkout <branch_name>		=> switch branch
+example:
+$ git checkout design
+$ git branch
+
+$ git checkout master			
+$ git branch -m main			=> rename branch
+
+$ git checkout -b sales			=> create new branch & switch to that new branch
+
+$ git branch -d sales			=> delete branch (first checkout from sales branch, or exit sales branch)

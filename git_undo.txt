@@ -1,0 +1,24 @@
+GIT UNDO/REVERT CHANGES
+=======================
+
+$ git blame <file_name>
+$ git log
+$ git log --oneline
+$ git status
+$ git diff <branch>
+$ git remote -v
+
+Undo Changes -->>
+=================
+Undo Staging -->>
+-----------------
+$ git reset <file_name>			
+$ git reset
+
+Undo Commit -->>
+----------------
+$ git reset HEAD~1			=> undo last commit
+$ git reset <hash>			=> undo multiple commits
+$ git reset --hard <hash>		=> undo changes in file 
+$ git revert <hash>			=> undo specific commit
+
